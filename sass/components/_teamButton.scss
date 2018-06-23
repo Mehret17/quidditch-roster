@@ -1,16 +1,21 @@
 @import '../variables';
 
   .team-button-gryffindor {
-    background-color: @gryffindor;
+    background-color: $gryffindor;
+    @include default-font(1em);
   }
 
-  team-button-slytherin {
+  .team-button-slytherin {
     background-color: $slytherin;
+    @include default-font(1em);
+
   }
-  team-button-hufflepuff {
+  .team-button-ravenclaw {
     background-color: $hufflepuff;
+    @include default-font(1em);
   }
 
-  team-button-hufflepuff {
+  .team-button-hufflepuff {
     background-color: blue;
+    @include default-font(1em);
   }
